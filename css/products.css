@@ -11,6 +11,7 @@
     width: 310px;
     background: gray;
     padding: 1rem;
+    margin: 5px 5px 5px 5px;
 }
 
 .products-card-name{
@@ -19,3 +20,20 @@
     text-align: center;
 }
 
+@media only screen and (max-width: 376px) {
+    .products-card:nth-child(1n+4){
+        display: none;
+    }
+
+    .products-container{
+        margin: 0 0 0 0;
+    }
+
+    #show-more{
+        display: block;
+    }
+    
+    .show-btn{
+        align-items: center;
+    }
+}
