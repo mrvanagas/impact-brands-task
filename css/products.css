@@ -1,0 +1,19 @@
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80vw;
+    
+}
+
+.products-card{
+    height: 440px;
+    width: 310px;
+    background: #a4c6cc;
+    padding: 1rem;
+}
+
+.products-card-name{
+    margin-top: 0.5rem;    
+    margin-bottom: 0.5rem;
+}
