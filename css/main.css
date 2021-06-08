@@ -91,16 +91,13 @@
 /* slider */
 
 .slider-container{
-    margin: 0;
-    padding: 0;
-    /* height: 100vh; */
-    display: flex;
-    justify-content: center;
-    align-items: c;
+    max-width: 100vw;
+    position: relative;
+    margin: auto;
 }
 
 .slider{
-    width: 800px;
+    width: 100vw;
     height: 600px;
     overflow: hidden;
 }
@@ -121,7 +118,7 @@
 }
 
 .slide img{
-    width: 800px;
+    width: 100vw;
     height: 500px;
 }
 
@@ -129,7 +126,7 @@
 
 .navigation-man{
     position: absolute;
-    width: 800px;
+    width: 100vw;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -168,7 +165,7 @@
 .navigation-auto{
     position: absolute;
     display: flex;
-    width: 800px;
+    width: 1000px;
     justify-content: center;
     margin-top: 460px;
 }
