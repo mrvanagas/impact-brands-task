@@ -35,7 +35,7 @@
   max-height: 0;
   overflow: hidden;
   position: relative;
-  background-color: aliceblue;
+  background-color: rgb(11, 61, 105);
   transition: 650ms;
 }
 
@@ -44,7 +44,7 @@
   position: absolute;
   width: 0.6rem;
   height: 90%;
-  background-color: #8fc460;
+  background-color: #a0cc79;
   top: 50%;
   left: 0;
   transform: translateY(-50%);
