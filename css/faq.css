@@ -7,18 +7,15 @@
 }
 
 .accordion-item{
-  /* background-color: gray; */
   border-radius: 0.4rem;
   margin-bottom: 1rem;
   padding: 1rem;
-  /* box-shadow: 2px 2px 3px black; */
 }
 
 .accordion-link{
   font-size: 1.6rem;
   color: black;
   text-decoration: none;
-  /* background-color: rgb(171, 171, 172); */
   width: 100%;
   display: flex;
   align-items: baseline;
@@ -27,7 +24,6 @@
 }
 
 .accordion-link i {
-  /* color: blue; */
   padding: 0.5rem;
 }
 
@@ -35,7 +31,6 @@
   max-height: 0;
   overflow: hidden;
   position: relative;
-  /* background-color: rgb(11, 61, 105); */
   transition: 650ms;
 }
 
